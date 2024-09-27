@@ -1,0 +1,27 @@
+{
+  "name": "case-recrutamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-css": "tailwindcss build -i ./src/styles/input.css -o ./public/dist/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
